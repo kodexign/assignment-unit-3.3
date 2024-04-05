@@ -19,12 +19,17 @@ console.log(supplyChanges);
 // 3. Create a variable called 'secondItem' and assign it the value of the second
 //    item in the 'supplyChanges' array.
 console.log('3. Access the second value of supplyChanges:');
-
+ let secondItem = supplyChanges[1];
+ console.log('item two:', secondItem);
 
 // 4. The last value in the 'supplyChanges' array was added by mistake.
 //    Remove it from the array and store it inside a new variable called 'removedItem'.
 console.log('4. Remove the last value from supplyChanges:');
+ 
+supplyChanges.pop();
 
+let removedItem = supplyChanges.pop();
+console.log("removed:", supplyChanges[removedItem]);
 
 // 5. A delivery of 25 more parts arrived. Add the value 25 to the end of the array
 console.log('5. Add the value 25 into supplyChanges.');
