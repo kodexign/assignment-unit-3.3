@@ -47,9 +47,9 @@ let positives = [];
 let negatives = [];
 let zeroes = [];
 
-for ( let i = 0; i < supplyChanges.length; i++){
-  positives.push(supplyChanges[i]);
-  console.log('positives:', positives);
+for ( let i = 0; i <= supplyChanges.length; i+=2){
+  positives.push(i);
+  console.log('positives:', supplyChanges[i]);
 }
 
 
