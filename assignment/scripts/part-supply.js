@@ -91,6 +91,13 @@ console.log('stretch zeroes array:', stretchZeroes);
 //    array to the 'totalParts' variable.
 console.log('8. Looping through supplyChanges to calculate the sum:');
 
+let totalParts = 0;
+
+for (let numbers of supplyChanges){
+  totalParts += numbers;
+}
+console.log('sum parts:', totalParts);
+
 
 // 9. We have a large stash of parts in our warehouse that we 
 //    need to box up and get ready for shipment. There are 572
