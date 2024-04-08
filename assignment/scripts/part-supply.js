@@ -60,7 +60,7 @@ for (let i = 0; i < supplyChanges.length; i++) {
 }
 console.log('positive array:', positives);
 console.log('negative array:', negatives);
-console.log('sero array:', zeroes);
+console.log('zero array:', zeroes);
 
 // ***** STRETCH GOALS *********************************************
 // 7. Rewrite the 'for' loop from #6 as a 'for...of' loop. Instead of 'positives',
@@ -112,6 +112,7 @@ console.log('sum parts:', totalParts);
 //    how many boxes were filled.
 console.log('9. Filling boxes with a "while" loop');
 
+  //I'm missing something leftover parts not console logging correctly
 let parts = 572;
 let boxesFilled = 0;
 
@@ -121,6 +122,7 @@ while (parts > 0) {
 }
 console.log('filled boxes:', boxesFilled);
 console.log('leftovers:', parts);
+
 
 
 // DO NOT MODIFY
