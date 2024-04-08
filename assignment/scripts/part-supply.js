@@ -48,7 +48,7 @@ let negatives = [];
 let zeroes = [];
 
 for (let i = 0; i < supplyChanges.length; i++) {
-const allSupplies = supplyChanges[i];
+  const allSupplies = supplyChanges[i];
 
   if (allSupplies > 0) {
     positives.push(allSupplies);
@@ -75,7 +75,7 @@ let stretchZeroes = [];
 for (numbers of supplyChanges) {
   if (numbers > 0) {
     stretchPositives.push(numbers);
-  } else if (numbers < 0){
+  } else if (numbers < 0) {
     stretchNegatives.push(numbers);
   } else {
     stretchZeroes.push(numbers);
@@ -93,7 +93,7 @@ console.log('8. Looping through supplyChanges to calculate the sum:');
 
 let totalParts = 0;
 
-for (let numbers of supplyChanges){
+for (let numbers of supplyChanges) {
   totalParts += numbers;
 }
 console.log('sum parts:', totalParts);
@@ -112,7 +112,15 @@ console.log('sum parts:', totalParts);
 //    how many boxes were filled.
 console.log('9. Filling boxes with a "while" loop');
 
+let parts = 572;
+let boxesFilled = 0;
 
+while (parts > 0) {
+  parts -= 7;
+  boxesFilled++;
+}
+console.log('filled boxes:', boxesFilled);
+console.log('leftovers:', parts);
 
 
 // DO NOT MODIFY
