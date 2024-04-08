@@ -7,14 +7,14 @@ console.log('****** Part Supply *******');
 console.log('1. Create partsNeeded:');
 
 let partsNeeded = 40;
-console.log(partsNeeded);
+console.log('needed:', partsNeeded);
 
 // 2. Create a variable called 'supplyChanges' whose value is an array containing
 //    the following numbers: 3, 5, -6, 0, 7, 11.
 console.log('2. Create supplyChanges:');
 
 let supplyChanges = [3, 5, -6, 0, 7, 11];
-console.log(supplyChanges);
+console.log('supply array:', supplyChanges);
 
 // 3. Create a variable called 'secondItem' and assign it the value of the second
 //    item in the 'supplyChanges' array.
@@ -33,6 +33,7 @@ console.log("removed:", removedItem);
 console.log('5. Add the value 25 into supplyChanges.');
 
 supplyChanges.push(25);
+console.log('add 25 to parts:', supplyChanges);
 
 // 6. Create three new variables named 'positives', 'negatives', and
 //    'zeroes' whose values are empty arrays. Then, write a for loop
@@ -115,9 +116,10 @@ console.log('9. Filling boxes with a "while" loop');
   //I'm missing something leftover parts not console logging correctly
 let parts = 572;
 let boxesFilled = 0;
+let partsInBox = 7;
 
-while (parts > 0) {
-  parts -= 7;
+while (partsInBox < parts) {
+  parts -= partsInBox;
   boxesFilled++;
 }
 console.log('filled boxes:', boxesFilled);
