@@ -113,7 +113,6 @@ console.log('sum parts:', totalParts);
 //    how many boxes were filled.
 console.log('9. Filling boxes with a "while" loop');
 
-  //I'm missing something leftover parts not console logging correctly
 let parts = 572;
 let boxesFilled = 0;
 let partsInBox = 7;
